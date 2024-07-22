@@ -1,6 +1,6 @@
 # Jim_TASA_Monopulse
 ## step1. 符號定義
-- $P_o$ 為我們收到的訊號
+- \[ P_o \] 為我們收到的訊號
 
 $ P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) $
 

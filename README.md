@@ -1,4 +1,18 @@
 # Jim_TASA_Monopulse
+
+# 合併後的方程式
+
+以下是合併後的方程式：
+
+1. $$ P_{\Sigma} + P_{\Delta} = P_1 + P_3 = P_2 + P_4 $$
+
+2. $$ P_{\Sigma} \cdot P_{\Delta} = \frac{1}{16} \left[ (P_1 - P_3)^2 + (P_4 - P_2)^2 \right] $$
+
+3. $$ \phi_t = \tan^{-1} \left( \frac{P_4 - P_2}{P_1 - P_3} \right) $$
+
+4. $$ \theta_t = k_t \cdot \left( \frac{P_{\Delta}}{P_{\Sigma}} \right) $$
+
+
 ## step1. 符號定義
 - \[ P_o \] 為我們收到的訊號
 

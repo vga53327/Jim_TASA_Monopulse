@@ -10,19 +10,19 @@ $$ \theta_t = k_t \cdot \left( \frac{P_{\Delta}}{P_{\Sigma}} \right) $$
 
 
 ## step1. 符號定義
-- $$ P_o $$ 為我們收到的訊號
+- Po為我們收到的訊號
 
 $$ P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) $$
 
-- $$P_{\Sigma}$$ 代表 Sum port power
-- $ P_{\Delta} $ 代表 Difference port power
-- $ \phi $ 是兩路間相位差
+- P_Sigma 代表 Sum port power
+- P_Delta 代表 Difference port power
+- phi 是兩路間相位差
 
 $ \phi = \phi_o + \phi_t + \phi_i $
 
-- $ \phi_o $ : $ \Sigma 和 \Delta $ 線路相位差
-- $ \phi_t $ : 目標物極座標投影的角度
-- $ \phi_i $ :  相位偏移器設定相位角度
+- phi_o: Sigma 和 Delta 線路相位差
+- phi_t: 目標物極座標投影的角度
+- phi_i:  相位偏移器設定相位角度
 
 ## step2. 校正後找出 $ \phi_o $
 1. 將天線對準衛星後，往自定義的0度方向做移動（表示 $ \phi_t =0 $）

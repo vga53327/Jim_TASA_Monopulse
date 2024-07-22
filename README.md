@@ -1,24 +1,20 @@
 # Jim_TASA_Monopulse
 
-# 合併後的方程式
+$$ P_{\Sigma} + P_{\Delta} = P_1 + P_3 = P_2 + P_4 $$
 
-以下是合併後的方程式：
+$$ P_{\Sigma} \cdot P_{\Delta} = \frac{1}{16} \left[ (P_1 - P_3)^2 + (P_4 - P_2)^2 \right] $$
 
-1. $$ P_{\Sigma} + P_{\Delta} = P_1 + P_3 = P_2 + P_4 $$
+$$ \phi_t = \tan^{-1} \left( \frac{P_4 - P_2}{P_1 - P_3} \right) $$
 
-2. $$ P_{\Sigma} \cdot P_{\Delta} = \frac{1}{16} \left[ (P_1 - P_3)^2 + (P_4 - P_2)^2 \right] $$
-
-3. $$ \phi_t = \tan^{-1} \left( \frac{P_4 - P_2}{P_1 - P_3} \right) $$
-
-4. $$ \theta_t = k_t \cdot \left( \frac{P_{\Delta}}{P_{\Sigma}} \right) $$
+$$ \theta_t = k_t \cdot \left( \frac{P_{\Delta}}{P_{\Sigma}} \right) $$
 
 
 ## step1. 符號定義
-- \[ P_o \] 為我們收到的訊號
+- $$ P_o $$ 為我們收到的訊號
 
-\( P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) \)
+$$ P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) $$
 
-- $$ P_{\Sigma} $$ 代表 Sum port power
+- $$P_{\Sigma}$$ 代表 Sum port power
 - $ P_{\Delta} $ 代表 Difference port power
 - $ \phi $ 是兩路間相位差
 

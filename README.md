@@ -2,9 +2,9 @@
 ## step1. 符號定義
 - \[ P_o \] 為我們收到的訊號
 
-$ P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) $
+\( P_o = \frac{1}{2} \left( P_{\Sigma} + P_{\Delta} + 2 \sqrt{P_{\Sigma} \cdot P_{\Delta}} \cos(\phi) \right) \)
 
-- $ P_{\Sigma} $ 代表 Sum port power
+- $$ P_{\Sigma} $$ 代表 Sum port power
 - $ P_{\Delta} $ 代表 Difference port power
 - $ \phi $ 是兩路間相位差
 
